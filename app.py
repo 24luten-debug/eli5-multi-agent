@@ -34,6 +34,7 @@ def call_llm(messages, temperature=0.4, max_tokens=650):
     )
     return response.choices[0].message.content.strip()
 
+
 def clean_text(text):
     return re.sub(r"\s+", " ", text or "").strip()
 
@@ -375,7 +376,7 @@ def generate_answer(query):
         draft = simplifier(concepts, research, query)
         cleaned = formatter(draft)
         judged = judge(cleaned, query)
-        final_text = repair_if_needed(judged, query, concepts, research)git --version
+        final_text = repair_if_needed(judged, query, concepts, research)
         parsed = parse_json_or_sections(final_text)
         if all_sections_good(parsed):
             return parsed, concepts, research, draft, cleaned, final_text

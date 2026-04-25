@@ -4,9 +4,6 @@ Clear explanations in the simplest possible way using a multi-agent AI system.
 
 ---
 
-## 🚀 Live Demo
-
-👉 https://eli5-multi-agent-6yco7cu8dmitahfmzdqg4y.streamlit.app/
 
 ## 🚀 Live Demo
 

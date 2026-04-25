@@ -24,14 +24,14 @@ This app explains any topic in a simple, structured **“Explain Like I’m 5”
 
 ## 🧠 Architecture
 
-### Multi-Agent System Flow:
+![Architecture](architecture.png)
 
-* **Concept Analyzer** → Understands the user query
-* **Research Agent** → Fetches real-time data using Tavily API
-* **Simplifier Agent** → Converts complex info into simple language
-* **Formatter Agent** → Structures the output
-* **Judge Agent** → Ensures quality and clarity
-
+Multi-Agent System Flow:
+- Concept Analyzer → Understands the user query  
+- Research Agent → Fetches real-time data using Tavily API  
+- Simplifier Agent → Converts complex info into simple language  
+- Formatter Agent → Structures the output  
+- Judge Agent → Ensures quality and clarity  
 👉 All agents use **Groq LLM** for reasoning and generation.
 
 ---

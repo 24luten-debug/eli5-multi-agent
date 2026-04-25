@@ -8,6 +8,13 @@ Clear explanations in the simplest possible way using a multi-agent AI system.
 
 👉 https://eli5-multi-agent-6yco7cu8dmitahfmzdqg4y.streamlit.app/
 
+## 🚀 Live Demo
+
+👉 https://eli5-multi-agent-6yco7cu8dmitahfmzdqg4y.streamlit.app/
+
+## 🎥 Demo Video
+
+👉 https://www.loom.com/share/8d945d52a5d44261bdf161205c3c78a3
 ---
 
 ## 📌 Problem
